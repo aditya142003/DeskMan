@@ -1,0 +1,49 @@
+.bar{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    height: calc(100vh - 50px);
+    left: 0;
+    background-color: white;
+    width: 80px;
+    overflow: hidden;
+    transition:ease 0.5s width, ease 0.5s border-radius;
+    border: solid transparent;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.list{
+    display: flex;
+    font-size: 20px;
+    margin-top: 8px
+}
+.tabs{
+    padding: 20px;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding: 20px;
+    padding-left: 25px;
+}
+.bar:hover{
+    width: 180px;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.icons{
+    padding-left: 20px;
+}
+.tabs:hover{
+    background-color: rgb(228, 231, 232);
+}
+.dark{
+    background-color: rgba(38, 38, 38, 30%);
+}
+.darktext{
+    color: white;
+}
+.darktabs:hover{
+    background-color: rgba(38, 38, 38, 100%);
+}

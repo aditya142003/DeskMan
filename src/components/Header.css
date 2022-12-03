@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #1b5f98;
+    height: 50px;
+    font-size: 28px;
+    color: #F8B195;
+    font-family: 'Lora', serif;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.hide{
+    display: none;
+}
+.material-symbols-outlined{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 40px;
+}
+.material-symbols-outlined:hover{
+    cursor: pointer;
+    
+}
+.darker{
+    background-color: rgba(38, 38, 38, 90%);
+}
