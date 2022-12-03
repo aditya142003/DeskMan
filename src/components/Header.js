@@ -12,7 +12,7 @@ export default function Header(props){
 
   return (
     <div className={`header ${props.mode ? "darker" : ""}`}>
-      <div className="logo">Text Editor</div>
+      <div className="logo">Desk-Man</div>
       <div>
         <span
           className={`material-symbols-outlined ${isclick ? "hide" : ""}`}

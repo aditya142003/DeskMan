@@ -1,0 +1,50 @@
+.container {
+    position: absolute;
+    left: 104px;
+    width: calc(100vw - 203px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.writingArea{
+    position: relative;
+    border: transparent;
+    border-radius: 30px;
+    left: 50px;
+    top: 80px;
+}
+.printingArea{
+    position: relative;
+    border: black 2px solid;
+    top: 30px;
+    right: 70px;
+    width:640px;
+    height: 620px;
+    background-color: white;
+    overflow-y: scroll;
+    font-size: 18px;
+}
+.buttons{
+    padding: 10px;
+    padding-left: 33px;
+    position: relative;
+    left: 40px;
+    top: 80px;
+}
+button{
+    padding: 10px;
+    font-size: 10px;
+    margin: 10px;
+}
+.title{
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+.textbar{
+    font-size: 20px;
+    padding: 7px;
+}
+.hide{
+    display: none;
+}
